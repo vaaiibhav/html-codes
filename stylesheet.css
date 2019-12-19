@@ -1,0 +1,19 @@
+body{
+    background-color: burlywood;
+    margin: 20px;
+}
+p{
+    text-align: center;
+    color: cornflowerblue;
+}
+.hello{
+        color: white;
+        font-size: large;
+        margin: auto;
+
+}
+.newhello{
+    color: red;
+        font-size: 400%;
+        margin: auto;
+}
