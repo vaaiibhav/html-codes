@@ -1,6 +1,12 @@
+html{
+    height: 100%;
+    width: 100%;
+}
 body{
     background-color: burlywood;
     margin: 20px;
+    height: 100%;
+    width: 100%;
 }
 p{
     text-align: center;
@@ -16,4 +22,13 @@ p{
     color: red;
         font-size: 400%;
         margin: auto;
+}
+.gr{
+    background-image: url("../images/book.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
 }
