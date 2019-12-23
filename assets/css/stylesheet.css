@@ -32,3 +32,28 @@ p{
 
 
 }
+
+table,tr,th{
+    border: 4px dashed blueviolet !important;
+    border-collapse: collapse;
+
+}
+tr:nth-child(1) 
+{
+    background-color: coral;
+}
+/* tr:nth-child(even) 
+{
+    background-color: greenyellow;
+}
+tr:nth-child(odd) 
+{
+    background-color: orangered;
+} */
+tr:nth-last-child()
+{
+    background-color: lime;
+}
+th{
+    padding: 20px;
+}
