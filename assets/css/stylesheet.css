@@ -57,3 +57,6 @@ tr:nth-last-child()
 th{
     padding: 20px;
 }
+ul{
+    list-style-type: circle;
+}
