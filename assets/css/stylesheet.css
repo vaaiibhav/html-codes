@@ -63,9 +63,34 @@ ul{
 
 .vcs{
     background-color: forestgreen;
+    font-size: 200%;
 
 }
 .cms{
 
     background-color: chocolate;
+}
+
+#vaib{
+    background-color: purple;
+    color: white;
+}
+.whiteText{
+    color: white;
+}
+.shrutilate{
+
+    background-color: lime;
+    font-size: 200%;
+    display: inline;
+    /* width: 50%; */
+    margin: 40dp;
+
+
+}
+.lengthyclass{
+    width: 100%;
+    vertical-align: auto;
+    text-align: center;
+    
 }
