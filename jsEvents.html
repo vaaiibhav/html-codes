@@ -1,0 +1,50 @@
+<!-- Common HTML Events
+       Event	Description
+        onchange	    An HTML element has been changed
+        onclick	        The user clicks an HTML element
+        onmouseover	    The user moves the mouse over an HTML element
+        onmouseout	    The user moves the mouse away from an HTML element
+        onkeydown	    The user pushes a keyboard key
+        onload	        The browser has finished loading the page -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Events</title>
+</head>
+<body onload="bodyLoaded()">
+    <img src="assets/images/book.jpg" width="960px" height="320px" onload="imageLoaded()">
+    <button id="btnC"> CLick Me</button>
+    <button draggable="true" id="dragger" style="width: 120px; height: 140px;"> Drag ME</button>
+
+
+    <script>
+    function bodyLoaded(){
+            console.log('Body Loaded');
+    }
+
+    function imageLoaded(){
+
+            console.log("Image Loaded")
+    }
+    document.getElementById('btnC').addEventListener('click', mybtnClicked)
+    function mybtnClicked(){
+        alert('I have been Clicked');
+    }
+
+    document.getElementById("dragger").addEventListener('dragstart', function(event)   {
+        document.getElementById("dragger").style.backgroundColor = "red" ;
+    })
+    document.getElementById("dragger").addEventListener('dragend', function(event)   {
+        document.getElementById("dragger").style.backgroundColor = "green" ;
+    })
+    // document.addEventListener
+
+    </script>
+</body>
+</html>
